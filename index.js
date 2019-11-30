@@ -43,8 +43,6 @@ function WebhookProcessing(req, res) {
 
   let intentMap = new Map();
   intentMap.set("Get Weather", getweather);
-  intentMap.set("Default Welcome Intent", welcome);
-  intentMap.set("What Gigabit Broadband Upgrade", broadband);
   agent.handleRequest(intentMap);
 }
 
