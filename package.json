@@ -1,0 +1,30 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "DialogFlow-NodeJS-WeatherAPI-Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iandart66/weather-api.git"
+  },
+  "keywords": [
+    "dialogflow",
+    "nodeJS",
+    "Weather",
+    "API",
+    "Heroku"
+  ],
+  "engines": {
+    "Node": "12.3.x"
+  },
+  "author": "Ian Dart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iandart66/weather-api/issues"
+  },
+  "homepage": "https://github.com/iandart66/weather-api#readme"
+}
