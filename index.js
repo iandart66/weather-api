@@ -62,6 +62,8 @@ app.post("/weather", (req, res) => {
     console.log("Date: " + date);
   }
 
+  callWeatherApi(city, date);
+
   WebhookProcessing(req, res);
 });
 
