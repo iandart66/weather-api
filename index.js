@@ -14,7 +14,7 @@ const {
 
 const app = express();
 
-const host = 'api.openweathermap.org';  OpenWeather API link
+const host = "api.openweathermap.org"; // OpenWeather API link
 const weatherAPI = process.env.API;
 
 app.use(bodyParser.json());
@@ -22,13 +22,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Weather API interaction
 
-function callWeatherApi (city, date) {
-  return new Promise ((resolve, reject) {
-    //Create the path for the HTTP request 
-    let path = host + '/data/2.5/weather?q=' + city + '&appid=' + weatherAPI;
-    console.log('Path: ' + path);
-
-  })
+function callWeatherApi(city, date) {
+  return new Promise((resolve, reject) => {
+    //Create the path for the HTTP request
+    let path = host + "/data/2.5/weather?q=" + city + "&appid=" + weatherAPI;
+    console.log("Path: " + path);
+  });
 }
 
 // DialogFlow Fulfillment
